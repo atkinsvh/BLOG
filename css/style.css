@@ -47,7 +47,7 @@ h3{
 
 .block {
 	float:left;
-	width:33.3%;
+	width:25%;
 	border: 1px solid #ccc;
 	padding:10px;
 	box-sizing:border-box;
@@ -55,23 +55,35 @@ h3{
 
 #main-post{
 	float:center;
-	width:70%;
-	padding:30 30px;
 	box-sizing:border-box;
 }
 
 .container-post{
+	float: center;
 	width:80%;
 	margin:auto;
 	overflow:hidden;
 
 }
+.post{
+		float: center;
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+
 img {
 	display: block;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
   text-align:center;
+}
+
+h3 {
+	text-align: center;
+	line-height: 3.5em;
 }
 
 
@@ -84,7 +96,10 @@ img {
 }
 
 #main-footer{
-		text-align:bottom center;
+		text-align:center;
 		font-size:18px;
-		padding:5px;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
 	}
